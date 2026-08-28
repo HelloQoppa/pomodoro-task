@@ -1,5 +1,6 @@
 {
   "expo": {
+    "icon": "./docs/assets/icon.png",
     "name": "FocusPulse",
     "slug": "focus-pulse",
     "version": "0.1.0",
@@ -10,10 +11,12 @@
       "backgroundColor": "#F7F9F8"
     },
     "ios": {
+      "icon": "./docs/assets/icon.png",
       "supportsTablet": true,
       "bundleIdentifier": "com.focuspulse.app"
     },
     "android": {
+      "icon": "./docs/assets/icon.png",
       "package": "com.focuspulse.app"
     },
     "plugins": [
