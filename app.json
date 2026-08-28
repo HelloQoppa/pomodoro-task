@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "FocusPulse",
+    "slug": "focus-pulse",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#F7F9F8"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.focuspulse.app"
+    },
+    "android": {
+      "package": "com.focuspulse.app"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}

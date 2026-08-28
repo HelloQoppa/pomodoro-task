@@ -1,0 +1,53 @@
+# Dependências
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+.expo-export-check/
+
+# Caches locais
+.gradle-user-home/
+.android-user-home/
+android/.kotlin/
+
+# TypeScript
+*.tsbuildinfo
+
+# Variáveis locais
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editores e sistema
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.DS_Store
+Thumbs.db
+
+# Testes
+coverage/
+
+# Builds
+*.apk
+*.aab
+
+# Certificados de produção
+*.jks
+*.p12
+*.pem
+*.mobileprovision
+*.keystore
+
+
+FocusPulse.md
