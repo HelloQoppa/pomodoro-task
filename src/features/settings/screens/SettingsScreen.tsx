@@ -166,8 +166,8 @@ export function SettingsScreen(): React.JSX.Element {
               <Ionicons color={colors.textMuted} name="chevron-forward" size={20} />
             </View>
           </View>
-          <View style={[styles.listRow, { borderBottomColor: colors.border }]}>
-            <Text style={[styles.rowLabel, { color: colors.text }]}>Ajuda</Text>
+          <View style={[styles.listRow, { borderBottomColor: colors.border, display: 'none' }]}>
+            <Text style={[styles.rowLabel, { color: colors.text, }]}>Ajuda</Text>
             <Ionicons color={colors.textMuted} name="chevron-forward" size={20} />
           </View>
           <Pressable style={styles.listRow} onPress={handleRestoreDefaults}>
